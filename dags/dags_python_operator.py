@@ -24,7 +24,7 @@ with DAG(
         
     #Python Airflow Task 선언
     py_t1 = PythonOperator(
-        task_id = 'py_t1'
+        task_id = 'py_t1',
         python_callable=select_fruit
     )
     
